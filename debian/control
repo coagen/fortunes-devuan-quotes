@@ -1,0 +1,14 @@
+Source: fortunes-devuan-quotes
+Section: games
+Priority: optional
+Build-Depends: debhelper (>= 6), fortune-mod
+Maintainer: Franco (nextime) Lanza  <nextime@nexlab.it>
+Standards-Version: 3.8.1
+
+Package: fortunes-devuan-quotes
+Architecture: all
+Depends: fortune-mod
+Provides:  fortune-cookie-db
+Description: devuan quotes for fortune
+ fortunes-devuan is a collection of quotes from devuan members
+ during developement session or chatting.
